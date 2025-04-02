@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #FF6F00; /* Naranja fuerte para el encabezado */
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #FFCC80; /* Naranja suave claro para filas pares */
+}
+
+tr:nth-child(odd) {
+    background-color: #FFB74D; /* Naranja medio suave para filas impares */
+}
